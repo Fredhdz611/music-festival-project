@@ -1,5 +1,6 @@
-$rojo: red;
+//@import es la forma antigua de incluir codigo de otros archivos.
+//@import "base/variables"; //este debe de ir al inicio ya que tiene todas las variables y se importa en todos los archivos que tenemos.
+//@import "content/content";
 
-body {
-  background-color: $rojo;
-}
+//@use es la nueva forma para incluir codido de otros archivos ya que es el que lo compila y tenemos que llamarlo en cada archvio que lo ocupe.
+@use "base";
