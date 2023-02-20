@@ -1,2 +1,5 @@
+//TODO LO QUE EMPIECE CON @ EN SCSS SE LE CONOCE COMO DIRECTIVAS.
 @forward "variables"; //@forward Apunta e indica donde estan esos archivos.
+@forward "mixins";
 @forward "normalize";
+@forward "globals";
