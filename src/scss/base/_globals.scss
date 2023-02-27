@@ -18,6 +18,9 @@ body {
   &.set-body {
     overflow: hidden;
   }
+  &.fixed {
+    padding-top: 8.6rem;
+  }
 }
 p {
   font-size: 2rem;
